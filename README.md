@@ -67,3 +67,11 @@ month = {7},
 doi = {10.1145/3386569.3392403}
 }
 ```
+
+## License
+
+Copyright (c) 2020, Marcel Santana. 
+
+All rights reserved.
+
+The code is distributed under a BSD license. See LICENSE for information.
