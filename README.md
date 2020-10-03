@@ -68,6 +68,10 @@ doi = {10.1145/3386569.3392403}
 }
 ```
 
+## Contact
+
+Please contact Marcel Santos (mss8@cin.ufpe.br) if there are any issues/comments/questions.
+
 ## License
 
 Copyright (c) 2020, Marcel Santana. 
