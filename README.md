@@ -35,7 +35,7 @@ https://github.com/marcelsan/Deep-HdrReconstruction.git
 
 ### Pretrained model
 
-The pretrained model checkpoints can be found in the checkpoints folder on [Google Drive]().
+The pretrained model checkpoints can be found in the checkpoints folder on [Google Drive](https://drive.google.com/file/d/1rzcUFQHGL2q4ZpVDKG28sS1pqpYcf4KN/view?usp=sharing).
 
 ### Inference
 
