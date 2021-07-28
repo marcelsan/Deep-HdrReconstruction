@@ -54,7 +54,22 @@ class PCBActiv(nn.Module):
             
         return h, h_mask
 
-class SoftConvNotLearnedMaskUNet(nn.Module):
+class BaseNetwork(nn.Module):
+    def __init__(self):
+        super(BaseNetwork, self).__init__()
+
+    def print_network(self):
+        if isinstance(self, list):
+            self = self[0]
+        num_params = 0
+        for param in self.parameters():
+            num_params += param.numel()
+
+        print('\tNetwork [%s] was created. Total number of parameters: %.1f million. '
+              'To see the architecture, do print(network).'
+              % (type(self).__name__, num_params / 1000000))
+
+class SoftConvNotLearnedMaskUNet(BaseNetwork):
     def __init__(self, layer_size=7, input_channels=3, upsampling_mode='nearest'):
         super().__init__()
         self.freeze_enc_bn = False

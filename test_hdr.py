@@ -86,6 +86,7 @@ if __name__ == '__main__':
     print_('\tLoaded {} test images.\n'.format(len(dataset)))
 
     model = SoftConvNotLearnedMaskUNet().to(device)
+    model.print_network()
     load_ckpt(args.weights, [('model', model)])
 
     print_("Starting prediction...\n\n")
