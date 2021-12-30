@@ -52,6 +52,16 @@ Parameters and their description:
 
 If cuda is available, it will be used. In case you want to run the model on cpu, use ```--cpu``` when executing test_hdr.py
 
+### Jupyter Notebook
+
+We also provide a [Jupyter Notebook](https://github.com/marcelsan/Deep-HdrReconstruction/blob/master/hdr_reconstruction.ipynb) that guides you through the steps for running the HDR reconstruction model on animage. Open the notebook with the following command:
+
+```
+jupyter notebook hdr_reconstruction.ipynb
+```
+
+Now a web-browser window will open automatically and load the Jupyter notebook. Follow the steps in order to run the model with your own data.
+
 ## References
 If you find this work useful for your research, please cite:
 
