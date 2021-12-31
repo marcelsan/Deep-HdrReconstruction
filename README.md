@@ -62,6 +62,10 @@ jupyter notebook hdr_reconstruction.ipynb
 
 Now a web-browser window will open automatically and load the Jupyter notebook. Follow the steps in order to run the model with your own data.
 
+## Viewing HDR Images
+
+To visualize HDR images you can use [tev](https://github.com/Tom94/tev), which allows loading several HDR file formats and is compatible with Windows, Mac and Linux. There is also a straightforward online viewer at [openhdr.org](openhdr.org).
+
 ## References
 If you find this work useful for your research, please cite:
 
